@@ -91,9 +91,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.2-impl \
-    libprocessgroup.vendor \
-    libldacBT_bco
-
+    libprocessgroup.vendor
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
@@ -115,7 +113,8 @@ PRODUCT_PACKAGES += \
     libreverbwrapper \
     libtinycompress \
     libvisualizer \
-    libvolumelistener
+    libvolumelistener \
+    libldacBT_bco
 
 # Audio configs
 PRODUCT_COPY_FILES += \
